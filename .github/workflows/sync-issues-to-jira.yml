@@ -1,5 +1,6 @@
 name: Jira Sync
 on:
+  workflow_dispatch:
   issues:
     types: [opened, labeled, unlabeled]
   issue_comment:
