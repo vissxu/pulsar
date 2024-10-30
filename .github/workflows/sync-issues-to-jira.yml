@@ -1,6 +1,9 @@
 name: Jira Sync
 on:
   workflow_dispatch:
+  push:
+    branches:
+      feature/vissxu
   issues:
     types: [opened, labeled, unlabeled]
   issue_comment:
